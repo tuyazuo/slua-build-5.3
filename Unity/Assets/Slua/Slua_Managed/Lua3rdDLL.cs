@@ -13,12 +13,10 @@ namespace SLua{
 		static Dictionary<string, LuaCSFunction> DLLRegFuncs = new Dictionary<string, LuaCSFunction>();
 		
 		static Lua3rdDLL(){
-            Debug.Log("3rd-------");
             //LuaSocketDLL.Reg(DLLRegFuncs);
-            //DLLRegFuncs.Add("lpeg", LuaDLLWrapper.luaopen_lpeg);
+            DLLRegFuncs.Add("lpeg", LuaDLLWrapper.luaopen_lpeg);
             DLLRegFuncs.Add("cjson", LuaDLLWrapper.luaopen_cjson);
             DLLRegFuncs.Add("sprotocore", LuaDLLWrapper.luaopen_sproto_core);
-            Debug.Log("1231231231213-----");
         }
 
         public static void open(IntPtr L){

@@ -11,5 +11,8 @@ function cc:init()
 	print('00')
 	local json = require 'cjson'
 	print(json)
+
+	local lpeg = require 'lpeg'
+	print(lpeg)
 end
 return cc

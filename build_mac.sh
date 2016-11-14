@@ -1,0 +1,4 @@
+cd macosx/slua/
+
+
+xcodebuild
