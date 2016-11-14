@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A47659EA02F60D2E8E034400109692C77BA5F0C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A47659EA02F60D2E8E034400109692C77BA5F0C1" : 9223372036854775807,
+    "598B32854AE83A2D9BD8E97CD7A40A342DEE1CE1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "434528E7-3C09-450D-8EDC-5982F1C4C66C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A47659EA02F60D2E8E034400109692C77BA5F0C1" : "slua-build-5.3\/",
+    "598B32854AE83A2D9BD8E97CD7A40A342DEE1CE1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "slua",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/slua.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/tuyazuo\/ProjectRun",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "598B32854AE83A2D9BD8E97CD7A40A342DEE1CE1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/tuyazuo\/slua-build-5.3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A47659EA02F60D2E8E034400109692C77BA5F0C1"
+    }
+  ]
+}
