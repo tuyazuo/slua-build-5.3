@@ -4,9 +4,10 @@ include $(CLEAR_VARS)
 # LOCAL_FORCE_STATIC_EXECUTABLE := true
 LOCAL_MODULE := slua
 
+# LOCAL_STATIC_LIBRARIES := logg
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../lua-src/lua-5.3.3/src
-LOCAL_CPPFLAGS := -03 -ffast-math
-LOCAL_CFLAGS :=  -O3 -std=gnu99
+# LOCAL_CPPFLAGS := -03 -ffast-math -lm
+LOCAL_CFLAGS := -O3 -std=gnu99 -D "lua_getlocaledecpoint()=('.')" -DLUA_USE_C89
 # LOCAL_CFLAGS :=  -O2 -Wall -Wextra -DLUA_COMPAT_5_2
 LOCAL_SRC_FILES := ../../lua-src/slua/slua.c \
 	../../lua-src/lua-5.3.3/src/lapi.c \

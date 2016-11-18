@@ -1,5 +1,5 @@
 
-mkdir -p publish\android\armeabi-v7a
+mkdir -p publish/android/armeabi-v7a
 
 cd android
 
