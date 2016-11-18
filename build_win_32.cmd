@@ -52,7 +52,7 @@ gcc	lua-src\slua\slua.c ^
 	-I./lua-src\lpeg ^
 	-o publish/windows/x86/slua.dll -m32 -O3 -std=gnu99 -shared
 
-copy publish/windows/x86/slua.dll Unity/Assets/Plugins/x86/slua.dll /y
+copy publish/windows/x86/slua.dll Unity/Assets/Plugins/x86/slua.dll
 echo build over----------------------------
 pause
 
